@@ -10,6 +10,6 @@ int main(){
 		cout << "no";
 		main();}
 	else{
-	cout << "\npode dar " << (m/n) - (m%n) << " fatias para cada familiar\nresto para dar para refood:" << m%n;}
+	cout << "\npode dar " << (m/n) << " fatias para cada familiar\nresto para dar para refood:" << m%n;}
 	sleep(60); 
 }
