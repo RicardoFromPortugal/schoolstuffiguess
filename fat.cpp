@@ -6,6 +6,10 @@ int main(){
 	cout << "\nquantas pessoas e numero fatias\n";
 	cin >> n;
 	cin >> m;
-	cout << "\npode dar " << (m/n) - (m%n) << " fatias para cada familiar\nresto para dar para refood:" << m%n;
+	if (m < n){
+		cout << "no";
+		main();}
+	else{
+	cout << "\npode dar " << (m/n) - (m%n) << " fatias para cada familiar\nresto para dar para refood:" << m%n;}
 	sleep(60); 
 }
