@@ -8,37 +8,27 @@
 	srand(time(0));
 	for (i = 0; i < 5; i++) {
 		numbah[i]= rand() % 50 + 1;
-		cout << numbah[i] << "\n";
-	}
+		for (j = 0; j < 5; j++){
+			if (numbah[j] == numbah[i])
+			numbah[i]= rand()%50+1;}
+		cout << numbah[i] << "\n";}
 	for (i = 0; i < 5; i++) {
 		cout << "\n1 to 50\n" << i + 1 << " ";
 		cin >> a;
 		if (a < 51 && a > 0) {
-			number[i] = a;
-		}
+			number[i] = a;}
 		else {
-			cout << "\nno\n";
-		}
-	}
+			cout << "\nno\n";}}
 	for (j = 0; j < 5; j++){
 		cout << numbah[j] << " ";
 	for (i = 0; i < 5; i++) {
 		if (number[i] == numbah[j]) {
-			b++;
-		}
-	}}
+			b++;}}}
 	cout << "\n";
 	for (i = 0; i < 5; i++) {
-		cout << number[i] << " ";
-	}
+		cout << number[i] << " ";}
 	if (b == 5) {
-		cout << "\nHOLY CRAP YOU WON A MILLION BITCOIN WOOOOOOOOOOOOOOOOOOOOOOOO\n";
-	}
+		cout << "\nHOLY CRAP YOU WON A MILLION BITCOIN WOOOOOOOOOOOOOOOOOOOOOOOO\n";}
 	else {
-		cout << "\nyou didn't win ;(\n";
-	}
-}
- 
-	
-		
+		cout << "\nyou didn't win ;(\n";}}
 	
