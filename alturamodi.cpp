@@ -13,7 +13,7 @@ int main(){
 	for (i=0;i<c;i++){
 		if (a[i] >= 13 && b[i]<av){
 			c++;
-		av=av+b[i]}}
+		av=av+b[i];}}
 	av=av/c;
 	cout << "\naverage is: " << av;
 	cout << "\nstudents under the average height is: " << c;
