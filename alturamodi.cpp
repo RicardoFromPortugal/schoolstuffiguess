@@ -11,6 +11,10 @@ int main(){
 		c++;
 		av=av+b[i];}}
 	av=av/c;
+	c=0;
+	for (i=0;i<30;i++){
+	if (a[i]>=13&&b[i]<av){
+	c++;}}
 	cout << "\naverage is: " << av;
 	cout << "\nstudents under the average height is: " << c;
 		sleep(60);}
