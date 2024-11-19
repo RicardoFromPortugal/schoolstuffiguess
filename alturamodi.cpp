@@ -8,11 +8,7 @@ int main(){
 		cout << "\naltura: ";
 		cin >> b[i];
 		if(a[i]>=13){
-		c++;}}
-		c=0;
-	for (i=0;i<c;i++){
-		if (a[i] >= 13 && b[i]<av){
-			c++;
+		c++;
 		av=av+b[i];}}
 	av=av/c;
 	cout << "\naverage is: " << av;
