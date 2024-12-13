@@ -26,7 +26,4 @@ int main(){
 		c=0
 		for(i=0;i<a;i++){
 			c=c+b[i][j];}
-		cout << "media da disciplina " << m[i] << ": " << c;}
-	for(i=0;i<d;i++){
-		cout << i << ". " << m[i] << "\n";}
-		}
+		cout << "media da disciplina " << m[i] << ": " << c;}}
