@@ -3,7 +3,7 @@ using namespace std;
 char frase[40000];
 int a,i;
 int main(){
-	cout << "how many letters for word/frase: ";
+	cout << "how many letters and spaces for word/frase: ";
 	cin >> noskipws >> a;
 	cout << "alright, type it in: ";
 	for(i=0;i<a+1;i++){
