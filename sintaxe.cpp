@@ -21,7 +21,7 @@ void menormaior(){
 	for(i=0;i<a;i++){
 		cout << "\nnum " << i+1 << ": ";
 		cin >> moe[i];
-		if(i=0||e==2&&moe[i]>t||e==3&&moe[i]<t){
+		if(i=0||(e==2&&moe[i]>t)||(e==3&&moe[i]<t)){
 			t=moe[i];}}
 		cout << "it is " << t;
 		return;}
