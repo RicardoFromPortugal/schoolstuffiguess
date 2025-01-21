@@ -20,8 +20,8 @@ void playerr(){
 		cout << awawa[j][k] << "\n0-plastic 1-glass 2-paper\n";
 		cin >> l;
 		if(l==j){
-			e++;
-			cout << "yes";}}
+			e++;}}
+	cout << "you got " << e;
 	for(i=0;i<3;i++){
 		if(e>ranj[i]){
 			int temp, temp2;
