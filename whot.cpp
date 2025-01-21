@@ -21,7 +21,7 @@ void playerr(){
 		cin >> l;
 		if(l==j){
 			e++;}}
-	cout << "you got " << e;
+	cout << "\nyou got " << e;
 	for(i=0;i<3;i++){
 		if(e>ranj[i]){
 			int temp, temp2;
