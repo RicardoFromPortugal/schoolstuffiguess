@@ -31,7 +31,7 @@ void playerr(){
 			temp2=ranj[i+1];
 			ranj[i+1]=temp;}
 			if(i<1){
-			temp2=ranj[i+2];}
+			ranj[i+2]=temp2;}
 			i=4;}}}
 void ranker(){
 	for(i=0;i<3;i++){
