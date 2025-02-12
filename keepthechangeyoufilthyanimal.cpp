@@ -20,10 +20,10 @@ int main(){
 		else{
 			cout << "\n";
 			for(int i=0;i<8;i++){
-				for(int j=0;j<10000;j++){
+				for(int j=0;j>-2;j++){
 					if(tt-(coins[i]*(j+1))<0){
 						cout << j << " ";
 						tt-=(coins[i]*j);
-						j=100001;}}}}}
+						j=-10;}}}}}
 	else{
 		cout << "no";}}
