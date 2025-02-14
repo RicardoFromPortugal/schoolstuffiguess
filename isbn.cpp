@@ -5,7 +5,7 @@ int main(){
 	for(int i=0;i<13;i++){
 		cout << "digit " << i+1 << ": ";
 		cin >> fuckery[i];
-		if(fuckery[i]>9){
+		if(fuckery[i]>=10){
 			i--;}}
 	for(int i=1;i<7;i++){
 		fuckery[(i*2)-1]=fuckery[(i*2)-1]*3;}
